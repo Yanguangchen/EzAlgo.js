@@ -11,23 +11,23 @@ const sortedArray = quickSort([3, 1, 4, 1, 5, 9, 2, 6]);
 console.log(sortedArray);
 ```
 
-```
+```javascript
 const sortedArray = mergeSort([3, 1, 4, 1, 5, 9, 2, 6]);
 console.log(sortedArray);
 ```
-```
+```javascript
 const sortedArray = heapSort([3, 1, 4, 1, 5, 9, 2, 6]);
 console.log(sortedArray);
 ```
-```
+```javascript
 const sortedArray = selectionSort([3, 1, 4, 1, 5, 9, 2, 6]);
 console.log(sortedArray);
 ```
-```
+```javascript
 const sortedArray = bubbleSort([3, 1, 4, 1, 5, 9, 2, 6]);
 console.log(sortedArray);
 ```
-```
+```javascript
 const index = binarySearch([1, 2, 3, 4, 5], 3);
 console.log(index); // Outputs: 2
 ```
