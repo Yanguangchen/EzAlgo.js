@@ -19,7 +19,7 @@ Below are the sorting algorithms available, along with their descriptions and ex
 
 **Usage Example**:
 
-# Install directly using NPM
+# Install directly using npm
 ```bash
 npm install ezalgo
 ```
