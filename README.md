@@ -68,3 +68,5 @@ console.log(index); // Outputs: 3
 #### 2. HTML and CSS (for documentation)
 #### 3. uglify.js for obsfusciation
 #### 4. showdown.js for markdown to HTML conversion
+#### 5. npm
+#### 6. github packages
