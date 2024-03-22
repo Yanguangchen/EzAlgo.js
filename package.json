@@ -1,0 +1,15 @@
+{
+  "name": "ezalgo",
+  "version": "1.0.0",
+  "description": "https://yanguangchen.github.io/EzAlgo.js/",
+  "main": "mainFile.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ezalgo": "^1.0.0"
+  }
+}
