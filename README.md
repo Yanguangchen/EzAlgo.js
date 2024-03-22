@@ -53,3 +53,9 @@ console.log(index); // Outputs: 2
 const index = linearSearch([1, 2, 3, 4, 5], 4);
 console.log(index); // Outputs: 3
 ```
+
+## tech stack
+#### 1. javascript
+#### 2. HTML and CSS (for documentation)
+#### 3. uglify.js for obsfusciation
+#### 4. showdown.js for markdown to HTML conversion

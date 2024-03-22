@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
-    <link rel="icon" type="image/x-icon" href="favicon.webp">
+    <link rel="icon" type="image/x-icon" href="favicon.webp" />
     <script src="mainFile.min.js"></script>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+  </head>
 
-<body>
+  <body>
     <img id="logo" src="favicon.webp" />
+    <div id="markdownContent"></div>
     <div>
-    <h1>Cltr Shift C to open up console</h1>
-    <h2>
+      <h1>Cltr Shift C to open up console</h1>
+      <h2>
         Delete index.html of this library before utilzing to avoid conflicts
-    </h2>
-    <a href='https://github.com/Yanguangchen/EzAlgo.js/blob/main/README.md'>Click here for documentation</a>
+      </h2>
+      <a href="https://github.com/Yanguangchen/EzAlgo.js/blob/main/README.md"
+        >Click here to download</a
+      >
     </div>
     <img id="bigo" src="BigO.png" />
-</body>
-
+  </body>
 </html>
 
 <style>
-    html {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        background: #edf1f2;
-        justify-content: center;
-    }
+  html {
+    text-align: center;
+    font-family: monospace, Helvetica, sans-serif;
+    background: #edf1f2;
+    justify-content: center;
+  }
 
-    #list {
-        text-align: center;
-    }
+  #list {
+    text-align: center;
+  }
 
-    #logo {
-        width: 10%;
-    }
+  #logo {
+    width: 10%;
+  }
 
-    #bigo {
-        margin-top: 5%;
-        width: 40%
-    }
+  #bigo {
+    margin-top: 5%;
+    width: 40%;
+  }
 
-    a {
-        font-size: 140%;
-        text-align: center;
-    }
+  a {
+    font-size: 140%;
+    text-align: center;
+  }
+
+  #markdownContent {
+    text-align: center;
+    justify-content: center;
+  }
 </style>
+
+<script>
+  fetch("README.md")
+    .then((response) => response.text())
+    .then((text) => {
+      let converter = new showdown.Converter();
+      let html = converter.makeHtml(text);
+      document.getElementById("markdownContent").innerHTML = html;
+    });
+</script>
