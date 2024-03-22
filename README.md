@@ -19,6 +19,11 @@ Below are the sorting algorithms available, along with their descriptions and ex
 
 **Usage Example**:
 
+# Install directly using NPM
+```bash
+npm install ezalgo
+```
+
 # quicksort
 ```javascript
 const sortedArray = quickSort([3, 1, 4, 1, 5, 9, 2, 6]);
