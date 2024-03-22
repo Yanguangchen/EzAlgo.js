@@ -1,3 +1,7 @@
+## Link to the Webpage Documentation
+
+https://yanguangchen.github.io/EzAlgo.js/
+
 ```javascript
 /$$$$$$$$ /$$$$$$$$        /$$$$$$  /$$        /$$$$$$   /$$$$$$ 
 | $$_____/|_____ $$        /$$__  $$| $$      /$$__  $$ /$$___  $$
