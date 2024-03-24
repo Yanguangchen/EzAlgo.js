@@ -18,12 +18,13 @@ https://yanguangchen.github.io/EzAlgo.js/
 Below are the sorting algorithms available, along with their descriptions and examples of how to use them.
 
 **Usage Example**:
-
-# Install directly using NPM
+### //-----------------------------------------//
+## Install directly using npm
+###### //-----------------------------------------//
 ```bash
 npm install ezalgo
 ```
-
+### //-----------------------------------------//
 # quicksort
 ```javascript
 const sortedArray = quickSort([3, 1, 4, 1, 5, 9, 2, 6]);
@@ -68,3 +69,5 @@ console.log(index); // Outputs: 3
 #### 2. HTML and CSS (for documentation)
 #### 3. uglify.js for obsfusciation
 #### 4. showdown.js for markdown to HTML conversion
+#### 5. npm
+#### 6. github packages
