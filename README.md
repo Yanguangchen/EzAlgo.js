@@ -64,10 +64,12 @@ const index = linearSearch([1, 2, 3, 4, 5], 4);
 console.log(index); // Outputs: 3
 ```
 
-## tech stack
+## Language
 #### 1. javascript
 #### 2. HTML and CSS (for documentation)
+
+## dependencies
 #### 3. uglify.js for obsfusciation
 #### 4. showdown.js for markdown to HTML conversion
-#### 5. npm
+#### 5. npm 
 #### 6. github packages
