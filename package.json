@@ -1,6 +1,6 @@
 {
   "name": "@yanguangchen/ezalgo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for various algorithms",
   "main": "mainFile.min.js",
   "scripts": {
