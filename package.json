@@ -1,16 +1,24 @@
 {
-  "name": "ezalgo",
+  "name": "@yanguangchen/ezalgo",
   "version": "1.0.1",
   "description": "A JavaScript library for various algorithms",
   "main": "mainFile.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "algorithm",
+    "javascript",
+    "sort",
+    "search"
+  ],
   "author": "Chen Yanguang",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yanguangchen/EzAlgo.js"
+    "url": "git+https://github.com/Yanguangchen/EzAlgo.js.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
